@@ -1,0 +1,30 @@
+{
+  "name": "github-workflows",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack ./src/app.js -o ./public/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peteradeojo/github-workflows.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peteradeojo/github-workflows/issues"
+  },
+  "homepage": "https://github.com/peteradeojo/github-workflows#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "babel-loader": "^8.0.5",
+    "jest": "^27.5.1",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
